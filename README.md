@@ -1,13 +1,7 @@
 # Generalized-Mutual-Information
-Achievable Rates: Mutial Information (MI) and Generalize Mutial Information (GMI)
-from Dr. Tobias Fehenberger https://www.fehenberger.de
+The GitHub repository contains tools for estimating achievable rates, including Mutual Information (MI) and Generalized Mutual Information (GMI), developed by Dr. Tobias Fehenberger (https://www.fehenberger.de).
 
+When deciding which metric to use, if you have a given input and a memoryless channel, MI is the largest achievable rate. However, if you want to restrict the receiver to binary decoding and iterations between demapper and decoder are not allowed, then GMI becomes an achievable rate (MI is generally not).
 
-When to use (symbolwise) MI and when to use GMI
-
-
-For a given input and a memoryless channel, the MI is the largest achievable rate. If you do not want to make restrictions on the receiver and its decoder, use MI. If you consider a receiver with binary decoding and iterations between demapper and decoder are not allowed, GMI is an achievable rate (MI is in general not!).
-
-
-Calculates SNR and OSNR according to the GN model for multispan Nyquist-WDM with EDFAs. Implementated are Eqs. (16), (22), (36), (50), and (40) of  P. Poggiolini, G. Bosco, and A. Carena, "The GN-Model of Fiber Non-Linear Propagation and its Applications," J. Light. Technol., vol. 32, no. 4, pp. 694-721, Feb. 2014.
+The repository also includes a tool for calculating Signal-to-Noise Ratio (SNR) and Optical Signal-to-Noise Ratio (OSNR) based on the GN model for multispan Nyquist-Wavelength Division Multiplexing (WDM) with Erbium-Doped Fiber Amplifiers (EDFAs). This tool implements Equations (16), (22), (36), (50), and (40) from P. Poggiolini, G. Bosco, and A. Carena's paper titled "The GN-Model of Fiber Non-Linear Propagation and its Applications," published in the Journal of Lightwave Technology in February 2014.
 
